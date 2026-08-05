@@ -12,10 +12,10 @@ class Asc < Formula
   on_macos do
     if Hardware::CPU.arm?
       url 'https://github.com/rorkai/App-Store-Connect-CLI/releases/download/3.5.1/asc_3.5.1_macOS_arm64'
-      sha256 'e23d8ce1c93d5091efec59f2487075da5183bbe088e2d7ee393201370c615423'
+      sha256 'b79a70776d446c332e1e0b15f54379e64b65c84acd00cdecbc201e5ae971811d'
     else
       url 'https://github.com/rorkai/App-Store-Connect-CLI/releases/download/3.5.1/asc_3.5.1_macOS_amd64'
-      sha256 '58cb2d1c066defd498eadc7b56b7c58216a34235e11f047ee8f50caf640ba892'
+      sha256 'e2de6d3c206f23de116519bc6fe702fe10d2c1d6130a324d822b33ae17e87e73'
     end
   end
 
